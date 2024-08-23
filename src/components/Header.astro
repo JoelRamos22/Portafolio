@@ -1,14 +1,23 @@
 ---
+import Github from "../icons/Github.astro";
+import Linkedin from "../icons/Linkedin.astro";
+
 
 ---
 
-<header>
-    <nav>
-        <a href="">Experiencia</a>
-        <a href="">Proyectos</a>
-        <a href="">Sobre mi</a>
-        <a href="/linkedin">
+<header class="flex justify-center gap-x-40 mt-3 opacity-80">
+    <img src="../../public/caballerito.jpg" class="rounded-3xl w-8 h-8">
+    <nav class=" flex flex-row items-center gap-x-7 text-xs font-semibold ">
+        <a href="" class="p-2 hover:text-white hover:opacity-100 hover:scale-110 transition-transform">Experiencia</a>
+        <a href="" class="p-2 hover:text-white hover:opacity-100 hover:scale-110 transition-transform">Proyectos</a>
+        <a href="" class="p-2 hover:text-white hover:opacity-100 hover:scale-110 transition-transform">Sobre mi</a>
+    </nav>
+    <nav class="flex flex-row items-center gap-x-2 text-xs ">
+        <a href="https://www.linkedin.com/in/german-joel-ramos/" class="p-2 hover:text-white hover:opacity-100 hover:scale-110 transition-transform">
+            <Linkedin></Linkedin>
         </a>
-        <a href="/github"></a>
+        <a href="https://github.com/JoelRamos22" class="p-2 hover:text-white hover:opacity-100 hover:scale-110 transition-transform">
+            <Github></Github>
+        </a>
     </nav>
 </header>
