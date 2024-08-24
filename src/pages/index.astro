@@ -3,16 +3,25 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Portafolio.">
-	<main >
-		<section id="Inicio" class="w-full mx-auto flex flex-col py-36 px-64 gap-x-5">
-			<div>
-				<h1 class="text-4xl">Hola,<span> soy Joel</span></h1> 
-				<small class="">Desarrollador FullStack</small>
-			</div>
-				<!-- <img src="../../public/profile.jpg" class="rounded-full w-32 ml-10"> -->
-				<p class="text-pretty text-sm ">Desarrollador de software especializado en dar soluciones creativas e innovadoras a distintas aplicaciones.</p>
+	<main class="h-screen flex items-center justify-center">
+		<section
+		  id="Inicio"
+		  class="w-full max-w-md mx-auto flex flex-col items-center text-center"
+		>
+		  <h1 class="text-5xl font-semibold">
+			Hola, <span class="text-yellow-400" >soy Joel</span>
+		  </h1>
+		  <small class="text-base p-2 font-medium">Desarrollador FullStack 🚀</small>
+		  <p class="text-pretty text-lg mt-6 font-normal">
+			Desarrollador de software <span class="text-yellow-400">especializado en dar soluciones creativas e innovadoras a distintas aplicaciones</span>. Me encanta conocer y trabajar con gente nueva. Es un gusto poder colaborar y resolver cualquier duda.
+		  </p>
+		  <img src="./Portafolio/profile.jpg" class="rounded-full w-52 mt-6">
 		</section>
-	</main>
+		<section id="about-me">
+			
+		</section>
+	  </main>
+	  
 </Layout>
 
 <style>
