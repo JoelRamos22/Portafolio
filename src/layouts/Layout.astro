@@ -37,6 +37,7 @@ const { title } = Astro.props;
 		background-image: radial-gradient(circle, #020617, #08071d, #100722, #170726, #1f0529);
 		background-repeat: no-repeat;
 		background-size: cover;
+		scroll-behavior: smooth;
 	}
 	@keyframes show {
 		from {
@@ -51,8 +52,8 @@ const { title } = Astro.props;
 			animation-name: show;
 			animation-fill-mode: both;
 			animation-timeline: --reveal;
-			animation-range: entry 20% cover 40%;
-			animation-duration: 3ms;
+			animation-range: entry 20% cover 35%;
+			animation-duration: 5ms;
 	}
 	code {
 		font-family:
